@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00cc955f-38ac-474a-be0a-ec0cb066c523" name="Default" comment="" />
+    <list default="true" id="00cc955f-38ac-474a-be0a-ec0cb066c523" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flight-editor/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flight-editor/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flight-editor/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flight-editor/news_container.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="flight-react-compare.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +32,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vanilla/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="5" selection-start="693" selection-end="693" vertical-scroll-proportion="0.26929134" vertical-offset="168" max-vertical-offset="1440">
+            <state line="51" column="4" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.19258372" vertical-offset="604" max-vertical-offset="1440">
               <folding>
                 <marker date="1396417449000" expanded="true" signature="373:478" placeholder="..." />
               </folding>
@@ -51,6 +57,10 @@
         <option value="$PROJECT_DIR$/react-tutorial/react-0.10.0/src/data.json" />
         <option value="$PROJECT_DIR$/react-tutorial/react-0.10.0/src/helloworld.js" />
         <option value="$PROJECT_DIR$/vanilla/index.html" />
+        <option value="$PROJECT_DIR$/flight-editor/main.js" />
+        <option value="$PROJECT_DIR$/flight-editor/index.html" />
+        <option value="$PROJECT_DIR$/flight-editor/app.js" />
+        <option value="$PROJECT_DIR$/flight-editor/news_container.js" />
       </list>
     </option>
   </component>
@@ -119,6 +129,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,7 +150,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,24 +212,24 @@
     <frame x="1263" y="22" width="1280" height="1414" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -239,13 +249,18 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/todomvc/architecture-examples/react/js/todoModel.js">
+    <entry file="file://$PROJECT_DIR$/vanilla/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+        <state line="34" column="5" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="1440">
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <marker date="1396417449000" expanded="true" signature="373:478" placeholder="..." />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc/architecture-examples/react/js/todoModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todomvc/architecture-examples/react/js/todoItem.jsx">
@@ -259,41 +274,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todomvc/architecture-examples/react/js/app.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="7" selection-start="947" selection-end="947" vertical-scroll-proportion="0.011574074" vertical-offset="615" max-vertical-offset="2820">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="42" column="7" selection-start="947" selection-end="947" vertical-scroll-proportion="0.011574074" vertical-offset="615" max-vertical-offset="2820" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todomvc/architecture-examples/react/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/.jshintrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/templates/stats.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/js/data/stats.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-tutorial/react-0.10.0/src/data.json">
@@ -305,9 +301,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-tutorial/react-0.10.0/helloworld.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="452" selection-end="452" vertical-scroll-proportion="0.14150943" vertical-offset="0" max-vertical-offset="1272">
-          <folding />
-        </state>
+        <state line="12" column="7" selection-start="452" selection-end="452" vertical-scroll-proportion="0.14150943" vertical-offset="0" max-vertical-offset="1272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-tutorial/react-0.10.0/src/helloworld.js">
@@ -317,57 +311,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/templates/todo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.094339624" vertical-offset="0" max-vertical-offset="1272">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.094339624" vertical-offset="0" max-vertical-offset="1272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/js/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="113" selection-end="113" vertical-scroll-proportion="0.081018515" vertical-offset="0" max-vertical-offset="1296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/js/ui/main_selector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/js/ui/new_item.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/js/utils.js">
@@ -384,16 +344,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flight-editor/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="37" selection-start="169" selection-end="169" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/bower_components/todomvc-common/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.7848837" vertical-offset="2395" max-vertical-offset="3255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/templates/stats.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="19" selection-start="355" selection-end="355" vertical-scroll-proportion="0.22674419" vertical-offset="0" max-vertical-offset="860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/js/ui/main_selector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="400" selection-end="400" vertical-scroll-proportion="0.35842294" vertical-offset="0" max-vertical-offset="837">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="10" selection-start="792" selection-end="792" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flight-editor/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="36" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flight-editor/news_container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/js/ui/todo_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="15" selection-start="556" selection-end="556" vertical-scroll-proportion="-0.011574074" vertical-offset="360" max-vertical-offset="1710">
+        <state line="11" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc/dependency-examples/flight/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="40" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flight-editor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="15" selection-start="326" selection-end="326" vertical-scroll-proportion="0.2398524" vertical-offset="0" max-vertical-offset="813">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flight-editor/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="255" selection-end="255" vertical-scroll-proportion="0.15697674" vertical-offset="0" max-vertical-offset="860">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vanilla/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="693" selection-end="693" vertical-scroll-proportion="0.26929134" vertical-offset="168" max-vertical-offset="1440">
+        <state line="51" column="4" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.19258372" vertical-offset="604" max-vertical-offset="1440">
           <folding>
             <marker date="1396417449000" expanded="true" signature="373:478" placeholder="..." />
           </folding>
