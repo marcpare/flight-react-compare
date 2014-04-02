@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vanilla jQuery Weave editor</title>
+  <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+</head>
+<body>
+
+<h1>News Box Editing Demo</h1>
+
+<div id="news"></div>
+
+<script type="text/template" id="template-news-item">
+  <div>
+  <h4><%= item.title %></h4>
+  <p><%= item.desc %></p>
+  <a class="news-item-delete">Delete</a>
+  </div>
+</script>
+
+<script type="text/template" id="template-news">
+  <% _.each(items, function (item) { %>
+    <%= item %>
+  <% }) %>
+</script>
+
+<script>
+
+  /*
+
+  a model class
+  how will model make http requests?
+
+   */
+
+  var maxItems = 2;
+
+  var deleteNewsItem = function (item) {
+    for(var i = 0; i < data.length; i++) {
+      if (data[i].title === item.title) {
+        data[i].deleted = true;
+      }
+    }
+  };
+
+  var events = {
+    newsItemDelete: function (item) {
+      deleteNewsItem(item);
+      newsItemsView.render();
+    }
+  };
+
+  var data = [
+    {title:'Snohomish County Mudslide', desc: '...', deleted: false},
+    {title:'Magnitude-8.2 quake strikes northern Chile', desc: '...', deleted: false},
+    {title:'146,000 purchase health insurance on state exchange', desc: '...', deleted: false},
+    {title:'Feds cite breakdown in SPD reforms', desc: '...', deleted: false},
+    {title:'After soaking-wet March, expect a more-normal April', desc: '...', deleted: false}
+  ];
+  var T = {
+    news: _.template($('#template-news').html()),
+    newsItem: _.template($('#template-news-item').html())
+  };
+  var newsItemView = {
+    render: function (item) {
+      var html = T.newsItem({item:item});
+      var $e = $(html);
+      $e.find('.news-item-delete').on('click', function (e) {
+        e.preventDefault();
+        events.newsItemDelete(item);
+      });
+      return $e;
+    }
+  };
+  var newsItemsView = {
+    render: function () {
+      var active = _.filter(data, function (x) { return !x.deleted; });
+      active = active.slice(0, maxItems);
+      var items = _.map(active, newsItemView.render);
+      $('#news').html('');
+      _.each(items, function (item) {
+        $('#news').append(item);
+      });
+    }
+  };
+  newsItemsView.render();
+</script>
+
+</body>
+</html>
